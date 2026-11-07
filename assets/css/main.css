@@ -2493,3 +2493,11 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+/* Sembunyikan tombol Scroll Top secara permanen */
+#scroll-top, 
+.scroll-top {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
